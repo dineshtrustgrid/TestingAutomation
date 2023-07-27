@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-29T14:17:20 IST" name="Suite" finished-at="2023-06-29T14:17:20 IST" duration-ms="268">
+    <groups>
+      <group name="smoke">
+        <method signature="day2.homesignin()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" name="homesignin" class="com.selenium.TestNG.day2"/>
+        <method signature="day2.homesignout()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" name="homesignout" class="com.selenium.TestNG.day2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-29T14:17:20 IST" name="Test" finished-at="2023-06-29T14:17:20 IST" duration-ms="73">
+      <class name="com.selenium.TestNG.day1">
+        <test-method signature="carsignin()[pri:0, instance:com.selenium.TestNG.day1@2eae8e6e]" started-at="2023-06-29T14:17:20 IST" name="carsignin" finished-at="2023-06-29T14:17:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carsignin -->
+        <test-method signature="carsignout()[pri:0, instance:com.selenium.TestNG.day1@2eae8e6e]" started-at="2023-06-29T14:17:20 IST" name="carsignout" finished-at="2023-06-29T14:17:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carsignout -->
+        <test-method signature="carsignup(java.lang.String)[pri:0, instance:com.selenium.TestNG.day1@2eae8e6e]" started-at="2023-06-29T14:17:20 IST" name="carsignup" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qacliackacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carsignup -->
+      </class> <!-- com.selenium.TestNG.day1 -->
+      <class name="com.selenium.TestNG.TestNGTutorial">
+        <test-method signature="signin()[pri:0, instance:com.selenium.TestNG.TestNGTutorial@f0c8a99]" started-at="2023-06-29T14:17:20 IST" name="signin" finished-at="2023-06-29T14:17:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="signout()[pri:0, instance:com.selenium.TestNG.TestNGTutorial@f0c8a99]" started-at="2023-06-29T14:17:20 IST" name="signout" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+        <test-method signature="signup()[pri:0, instance:com.selenium.TestNG.TestNGTutorial@f0c8a99]" started-at="2023-06-29T14:17:20 IST" name="signup" finished-at="2023-06-29T14:17:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- com.selenium.TestNG.TestNGTutorial -->
+    </test> <!-- Test -->
+    <test started-at="2023-06-29T14:17:20 IST" name="home" finished-at="2023-06-29T14:17:20 IST" duration-ms="77">
+      <class name="com.selenium.TestNG.day2">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="beforesuite" finished-at="2023-06-29T14:17:20 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="beforeclass" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforegroup()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="beforegroup" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforegroup -->
+        <test-method signature="homesignin()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="homesignin" finished-at="2023-06-29T14:17:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homesignin -->
+        <test-method signature="homesignout()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="homesignout" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homesignout -->
+        <test-method is-config="true" signature="aftergroup()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="aftergroup" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftergroup -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="afterclass" finished-at="2023-06-29T14:17:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.selenium.TestNG.day2@239a307b]" started-at="2023-06-29T14:17:20 IST" name="aftersuite" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.selenium.TestNG.day2 -->
+      <class name="com.selenium.TestNG.day3">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="beforesuite" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="beforetest" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="beforemethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="weblogindata(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="weblogindata" data-provider="getdata" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogindata -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="aftermethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="weblogindata(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="weblogindata" data-provider="getdata" finished-at="2023-06-29T14:17:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogindata -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="beforemethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="aftermethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="beforemethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="websignup()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="websignup" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- websignup -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="aftermethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="beforemethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="webtimeout()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="webtimeout" finished-at="2023-06-29T14:17:20 IST" duration-ms="21" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.selenium.TestNG.day3.webtimeout(day3.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtimeout -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="aftermethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="beforemethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="websignin()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="websignin" finished-at="2023-06-29T14:17:20 IST" depends-on-methods="com.selenium.TestNG.day3.websignup" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- websignin -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="aftermethod" finished-at="2023-06-29T14:17:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.selenium.TestNG.day3@43f02ef2]" started-at="2023-06-29T14:17:20 IST" name="aftertest" finished-at="2023-06-29T14:17:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.selenium.TestNG.day3 -->
+    </test> <!-- home -->
+  </suite> <!-- Suite -->
+</testng-results>

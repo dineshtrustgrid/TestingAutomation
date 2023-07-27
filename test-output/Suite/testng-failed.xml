@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="qacliackacademy.com"/>
+  <listeners>
+    <listener class-name="com.selenium.TestNG.Listerners"/>
+  </listeners>
+  <test thread-count="5" name="home(failed)">
+    <classes>
+      <class name="com.selenium.TestNG.day3">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="webtimeout"/>
+        </methods>
+      </class> <!-- com.selenium.TestNG.day3 -->
+    </classes>
+  </test> <!-- home(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+selenium\pageobjects\CartPage.class
+com\seleniumproject\mavenproject\Windowmanagement.class
+com\selenium\TestNG\TestNGTutorial.class
+com\seleniumproject\mavenproject\Amazonecommerce.class
+com\seleniumproject\mavenproject\App.class
+com\selenium\TestNG\day3.class
+selenium\pageobjects\CheckoutPage.class
+selenium\pageobjects\ConfirmationPage.class
+com\selenium\TestNG\day2.class
+com\seleniumproject\mavenproject\CalendarUI.class
+com\seleniumproject\mavenproject\Ecommercecart.class
+selenium\Abstractcomponents\AbstractComponent.class
+com\selenium\TestNG\day1.class
+com\selenium\TestNG\Listerners.class
+selenium\pageobjects\Productcatalogue.class
+selenium\pageobjects\Landingpage.class
